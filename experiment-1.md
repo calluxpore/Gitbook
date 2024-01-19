@@ -11,11 +11,11 @@ description: >-
     .image-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .image-container div {
-        flex: 0 0 50%; /* This will make each div take up 50% of the width */
+        flex: 0 0 calc(25% - 20px); /* This will make each div take up 25% of the width minus the padding */
         box-sizing: border-box; /* Include padding and borders in the element's total width and height */
         padding: 10px; /* Add some space around each image */
         text-align: center;
@@ -27,9 +27,15 @@ description: >-
         border-radius: 15px;
     }
 
+    @media (max-width: 900px) {
+        .image-container div {
+            flex: 0 0 calc(50% - 20px); /* Half width on medium screens */
+        }
+    }
+
     @media (max-width: 600px) {
         .image-container div {
-            flex: 0 0 100%; /* Full width on smaller screens */
+            flex: 0 0 calc(100% - 20px); /* Full width on smaller screens */
         }
     }
 </style>
