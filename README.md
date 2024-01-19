@@ -10,7 +10,7 @@ In this course, I was introduced to the latest prototyping and development tools
 
 Key Projects Completed:
 
-* **Emotive Objects:** Employing programming and physical computing to transform a selected verb from Richard Serra's "Verb List" into an interactive, material object.
+* [**Emotive Objects**](emotive-objects.md)**:** Employing programming and physical computing to transform a selected verb from Richard Serra's "Verb List" into an interactive, material object.
 * **Multiscreen:** Leveraging advanced visual computation and networking for project development.
 * **Connected Systems:** Creating an interactive design centered around a self-selected research question using emerging technologies.
 * **Interstitial Spaces:** Developing a speculative, interactive project that synthesizes all the skills and concepts learned, prioritizing conceptual depth.
